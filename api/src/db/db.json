@@ -24,6 +24,20 @@
       "name": "mitchel",
       "type": "DOG",
       "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "uj8Gb_-Nn43Yk8adXjsjd",
+      "createdAt": 1598452642469,
+      "name": "pretty kitty",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "ZSo2e-fI4XgMHCbKgaq9w",
+      "createdAt": 1598452673713,
+      "name": "preston",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
