@@ -45,6 +45,16 @@ export default function Pets() {
         setModal(false);
         createPet({
             variables: { newPet: input },
+            optimisticResponse: {
+                __typename: 'Mutation',
+                addPet: {
+                    __typename: 'Pet',
+                    id: Math.floor(Math.random() * 10000 + ''),
+                    name: input.name,
+                    type: input.type,
+                    img: 'https://via.placeholder.com/200',
+                },
+            },
         });
     };
 

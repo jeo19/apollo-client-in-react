@@ -3,11 +3,6 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
 import { setContext } from 'apollo-link-context';
 import { ApolloLink } from 'apollo-link';
-/**
- * Create an Apollo Client, Link it to an API,
- *  and export it as a default client
- */
-
 const http = new HttpLink({ uri: 'http://localhost:4000/' });
 const delay = setContext(
     (request) =>
@@ -23,5 +18,4 @@ const client = new ApolloClient({
     link,
     cache,
 });
-
 export default client;
